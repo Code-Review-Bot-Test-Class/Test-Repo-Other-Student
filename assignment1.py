@@ -1,7 +1,11 @@
+# Missing requirement: Implement addition function
+# Missing requirement: Implement multiplication function
+# Progress: 0% (0 out of 4 requirements met)
+
 def subtrcat(a, b):
     return a - b
     
-
+# AI Review: Function name is misspelled; it should be 'subtract' for clarity and correctness.
 def divide(a, b):
     return a / b
 
@@ -27,8 +31,10 @@ def main():
             continue
 
         if operator == '+':
+            # AI Review: The add function is missing; it needs to be implemented.
             result = add(num1, num2)
         elif operator == '-':
+            # AI Review: The subtract function is misspelled; it should be 'subtrcat'.
             result = subtract(num1, num2)
         
         elif operator == '/':
